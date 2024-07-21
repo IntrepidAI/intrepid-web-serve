@@ -1,0 +1,259 @@
+<!DOCTYPE html><html lang="en" class="dark use-animations" data-astro-transition-scope="astro-tyfwoq7n-1"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width" , initial-scale="1.0"><!-- Inter Font: https://rsms.me/inter/ --><link rel="preconnect" href="https://rsms.me/"><link rel="stylesheet" href="https://rsms.me/inter/inter.css"><!-- Orbitron font (Intrepid AI) --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet"><!-- Fontawesome --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Favicons. Generated from https://realfavicongenerator.net/ --><link rel="icon" href="//favicons/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="//favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="//favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="//favicons/favicon-16x16.png"><link rel="manifest" href="//favicons/site.webmanifest"><link rel="mask-icon" href="//favicons/safari-pinned-tab.svg" color="#3e3e3e"><meta name="msapplication-TileColor" content="#3e3e3e"><meta name="theme-color" content="#3e3e3e"><!-- other --><meta name="generator" content="Astro v4.11.5"><link rel="sitemap" href="//sitemap-index.xml"><!-- Theme change setup. Run early to eliminate Flash of inAccurate coloR Theme (FART) --><script>
+  function initTheme() {
+    let colorTheme = localStorage.getItem("colorTheme");
+    if (!colorTheme) {
+      // if no color theme yet, start in dark mode because dark mode is best mode
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("colorTheme", "dark");
+
+      // if no color theme yet, use the users preferences (uncomment the below code, and comment out the above code to use this instead)
+      // if (
+      //   window.matchMedia &&
+      //   window.matchMedia("(prefers-color-scheme: dark)").matches
+      // ) {
+      //   document.documentElement.classList.add("dark");
+      //   localStorage.setItem("colorTheme", "dark");
+      // } else {
+      //   document.documentElement.classList.remove("dark");
+      //   localStorage.setItem("colorTheme", "light");
+      // }
+    } else {
+      // If there is, assign the theme based on the value in local storage
+      if (colorTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else if (colorTheme === "light") {
+        document.documentElement.classList.remove("dark");
+      }
+    }
+  }
+
+  // runs on initial page load
+  initTheme();
+
+  // runs on view transitions navigation
+  document.addEventListener("astro:after-swap", initTheme);
+</script><title>Elements</title><link rel="canonical" href="https://intrepid.ai/elements/"><meta name="description" content="Elements page for Blogsmith"><meta name="robots" content="index, follow"><meta property="og:title" content="Elements"><meta property="og:type" content="website"><meta property="og:image" content="https://intrepid.ai/images/cosmic-themes-logo.jpg"><meta property="og:url" content="https://intrepid.ai/elements/"><meta property="og:description" content="Elements page for Blogsmith"><meta property="og:site_name" content="Intrepid AI - All-in-one platform for autonomous robots"><meta property="og:image:url" content="https://intrepid.ai/images/cosmic-themes-logo.jpg"><meta property="og:image:type" content="image/webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="800"><meta property="og:image:alt" content="Elements"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@IntrepidAI"><meta name="twitter:title" content="Elements"><meta name="twitter:image" content="https://intrepid.ai/images/cosmic-themes-logo.jpg"><meta name="twitter:description" content="Elements page for Blogsmith"><meta name="twitter:creator" content="@IntrepidAI"> <!-- JSON LD --> <script type="application/ld+json">
+      {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "Intrepid AI - All-in-one platform for autonomous robots",
+      "url": "https://intrepid.ai"
+      }
+    </script><!-- no fallback as I saw issues with firefox fallback --><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="none"><link rel="stylesheet" href="/_astro/_page_.BzwSRsCg.css">
+<link rel="stylesheet" href="/_astro/_slug_.CMCIyAKv.css"><script type="module" src="/_astro/hoisted.ysCn3VhS.js"></script><style>[data-astro-transition-scope="astro-tyfwoq7n-1"] { view-transition-name: astro-tyfwoq7n-1; }@layer astro { ::view-transition-old(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head> <body id="body" class="bg-base-100 text-base-900 dark:bg-base-900 dark:text-base-100"> <!-- put cookie consent first so it is seen first by screen readers --> <!-- <CookieConsent /> --> <div class="min-h-[100lvh]"> <section id="nav" class="navbar--initial fixed left-0 top-0 z-30 flex w-full flex-col border-b border-b-transparent bg-transparent transition-all duration-300" data-astro-cid-ju4v47fh> <div class="mx-auto flex w-full" data-astro-cid-ju4v47fh> <div class="site-container flex w-full items-center" data-astro-cid-ju4v47fh> <header class="relative flex w-full items-center gap-2" data-astro-cid-ju4v47fh> <!-- home button / image --> <div class="flex h-full flex-auto justify-start" data-astro-cid-ju4v47fh> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> </div> <!-- <div class="flex flex-auto justify-center">
+
+        </div> --> <!-- desktop nav menu --> <div data-astro-cid-ju4v47fh> <div class="flex h-full flex-auto justify-end" data-astro-cid-ju4v47fh> <nav class="hidden md:block" data-astro-cid-ju4v47fh> <ul class="flex h-full items-center" data-astro-cid-ju4v47fh> <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product" target="" rel="" aria-label="Product">  Product </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/about" target="" rel="" aria-label="About">  About </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://intrepidai.substack.com" target="" rel="" aria-label="Blog">  Blog </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product/#pricing" target="" rel="" aria-label="Pricing">  Pricing </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://docs.intrepid.ai" target="" rel="" aria-label="Docs">  Docs </a> </li> </ul> </nav> <div class="hidden items-center gap-1 md:flex" data-astro-cid-ju4v47fh> <!-- <Button
+              variant="ghost"
+              href={getRelativeLocaleUrl(currLocale, "/login")}
+              class="whitespace-nowrap"
+            >
+              Sign In
+            </Button> --> <!-- normal link --><a class="whitespace-nowrap button group button--ghost" href="https://labs.intrepid.ai" data-astro-cid-ju4v47fh>
+Sign In
+</a><!-- button for "submit" or other --> <!-- normal link --><a class="whitespace-nowrap button group button--primary" href="https://labs.intrepid.ai" data-astro-cid-ju4v47fh>Register</a><!-- button for "submit" or other --> <!-- <ThemeToggle /> --> <!-- {locales.length > 1 && <LanguageSelect class="ml-2" />} --> </div> <!-- mobile nav menu, only load on small screens where it is visible --> <div class="flex items-center md:hidden" data-astro-cid-ju4v47fh> <!-- mobile nav open --><mobile-nav-menu> <button data-open-modal id="mobile-nav__open-btn" disabled class="primary-focus relative my-auto flex h-10 w-10 items-center justify-center rounded-md"> <!-- hamburger icon to open menu --> <svg viewBox="0 0 24 24" aria-label="open navigation menu" class="absolute inline-block h-8 w-8 transition-all" astro-icon="tabler/menu-2"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg> </button> <dialog aria-label="mobile navigation menu" id="mobile-nav__content" class="whitepace-nowrap fixed inset-x-0 top-0 z-20 m-0 h-[100dvh] max-h-screen w-screen max-w-[100vw] items-center overflow-auto overflow-y-auto overflow-x-hidden bg-base-100 px-4 pb-4 text-lg font-normal text-base-900 transition-opacity duration-300 dark:bg-base-900 dark:text-base-100"> <div class="dialog-frame -mr-1"> <div class="flex items-center justify-between"> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> <!-- mobile nav close --> <button data-close-modal id="mobile-nav__close-btn" class="primary-focus relative my-auto inline-flex h-10 w-10 items-center justify-center rounded-md"> <!-- "X" icon to close menu --> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="absolute inline-block h-8 w-8 transition-all" viewBox="0 0 24 24" aria-label="close navigation menu" astro-icon="tabler/x"><path stroke="none" d="M0 0h24v24H0z"/><path d="M18 6 6 18M6 6l12 12"/></svg> </button> </div> <!-- nav items --> <nav> <ul class="mt-4 flex flex-col gap-2 text-xl">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product" target="" rel="" aria-label="Product">  Product </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/about" target="" rel="" aria-label="About">  About </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://intrepidai.substack.com" target="" rel="" aria-label="Blog">  Blog </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product/#pricing" target="" rel="" aria-label="Pricing">  Pricing </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://docs.intrepid.ai" target="" rel="" aria-label="Docs">  Docs </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  </ul> </nav> <div class="mt-2 flex w-full flex-col gap-3 px-2"> <!-- <hr class="mx-2 mb-2 border-base-300 dark:border-base-600/60" /> --> <div class="-mr-1 flex items-start justify-between"> <!-- <ThemeToggle /> --> <!-- <LanguageSelect /> --> </div> <!-- normal link --><a class="mx-2 whitespace-nowrap button group button--outline" href="https://labs.intrepid.ai">
+Sign in
+</a><!-- button for "submit" or other --> <!-- normal link --><a class="mx-2 button group button--primary" href="https://labs.intrepid.ai">
+Register</a><!-- button for "submit" or other --> </div> </div> </dialog> </mobile-nav-menu>  </div> </div> </div> </header> </div> </div> </section>    <main class="">  <div class="mx-auto mt-24 max-w-3xl px-4 md:mt-36 md:px-8"> <div class="p-0"> <h1 class="h1"> Elements </h1> <hr class="mt-4 border-base-600/50"> <div class="prose max-w-none py-10 text-sm md:text-base"> <h4 id="heading-example">Heading example</h4>
+<p>Here is an example of headings. You can use this heading by the following markdown rules. For example: use <code>#</code> for heading 1 and use <code>######</code> for heading 6.</p>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<hr/>
+<h3 id="admonition">Admonition</h3>
+<p>This is my own component which is auto-imported in all mdx files. You can use it like:</p>
+<pre class="astro-code css-variables" style="background-color:var(--astro-code-color-background);color:var(--astro-code-color-text);overflow-x:auto;white-space:pre-wrap;word-wrap:break-word" tabindex="0" data-language="jsx"><code><span class="line"><span style="color:var(--astro-code-color-text)">&lt;</span><span style="color:var(--astro-code-token-constant)">Admonition</span><span style="color:var(--astro-code-token-function)"> variant</span><span style="color:var(--astro-code-token-keyword)">=</span><span style="color:var(--astro-code-token-string-expression)">&quot;info&quot;</span><span style="color:var(--astro-code-color-text)">&gt;Your text here&lt;/</span><span style="color:var(--astro-code-token-constant)">Admonition</span><span style="color:var(--astro-code-color-text)">&gt;</span></span>
+<span class="line"></span></code></pre>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-success bg-success/10 text-success-content prose-code:bg-success/20 dark:prose-code:bg-success/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/bulb"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7-.7.7M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3M9.7 17h4.6"/></svg> <p class="text-sm font-bold">TIP</p> </div> <p>Admonition <code>variant=&quot;tip&quot;</code>. Use this to provide a cool tip.</p> </div>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-warning bg-warning/10 text-warning-content prose-code:bg-warning/20 dark:prose-code:bg-warning/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/alert-triangle"><path stroke="none" d="M0 0h24v24H0z"/><path d="M12 9v4M10.363 3.591 2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0zM12 16h.01"/></svg> <p class="text-sm font-bold">CAUTION</p> </div> <p>Admonition <code>variant=&quot;caution&quot;</code>. Use this to warn people of potential issues.</p> </div>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-error bg-error/10 text-error-content prose-code:bg-error/20 dark:prose-code:bg-error/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/flame"><path stroke="none" d="M0 0h24v24H0z"/><path d="M12 12c2-2.96 0-7-1-8 0 3.038-1.773 4.741-3 6-1.226 1.26-2 3.24-2 5a6 6 0 1 0 12 0c0-1.532-1.056-3.94-2-5-1.786 3-2.791 3-4 2z"/></svg> <p class="text-sm font-bold">DANGER</p> </div> <p>Admonition <code>variant=&quot;danger&quot;</code>. Use this to tell people not to do something.</p> </div>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-info bg-info/10 text-info-content prose-code:bg-info/20 dark:prose-code:bg-info/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/info-circle"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0M12 9h.01"/><path d="M11 12h1v4h1"/></svg> <p class="text-sm font-bold">INFO</p> </div> <p>Admonition <code>variant=&quot;info&quot;</code>. Use this to provide extra secret sauce.</p> </div>
+<h3 id="emphasis">Emphasis</h3>
+<p>The emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>The combined emphasis with <strong>asterisks and ***</strong>underscores***.</p>
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+<hr/>
+<h3 id="link">Link</h3>
+<p><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">I’m an inline-style link</a></p>
+<p><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">I’m an inline-style link with title</a></p>
+<p><a href="https://www.cosmicthemes.com" target="_blank" rel="noopener noreferrer">I’m a reference-style link</a></p>
+<p><a href="https://cosmicthemes.com" target="_blank" rel="noopener noreferrer">You can use numbers for reference-style link definitions</a></p>
+<p>Or leave it empty and use the <a href="https://www.webreaper.dev" target="_blank" rel="noopener noreferrer">link text itself</a>.</p>
+<p>example.com (but not on Github, for example).</p>
+<p>Some text to show that the reference links can follow later.</p>
+<hr/>
+<h3 id="paragraph">Paragraph</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>
+<hr/>
+<h3 id="ordered-list">Ordered List</h3>
+<ol>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+</ol>
+<hr/>
+<h3 id="unordered-list">Unordered List</h3>
+<ul>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+<li>
+<p>List item</p>
+</li>
+</ul>
+<hr/>
+<h3 id="code-and-syntax-highlighting">Code and Syntax Highlighting</h3>
+<p>This is an <code>Inline code</code> sample.</p>
+<pre class="astro-code css-variables" style="background-color:var(--astro-code-color-background);color:var(--astro-code-color-text);overflow-x:auto;white-space:pre-wrap;word-wrap:break-word" tabindex="0" data-language="javascript"><code><span class="line"><span style="color:var(--astro-code-token-keyword)">var</span><span style="color:var(--astro-code-color-text)"> s </span><span style="color:var(--astro-code-token-keyword)">=</span><span style="color:var(--astro-code-token-string-expression)"> &quot;JavaScript syntax highlighting&quot;</span><span style="color:var(--astro-code-color-text)">;</span></span>
+<span class="line"><span style="color:var(--astro-code-token-function)">alert</span><span style="color:var(--astro-code-color-text)">(s);</span></span>
+<span class="line"></span></code></pre>
+<pre class="astro-code css-variables" style="background-color:var(--astro-code-color-background);color:var(--astro-code-color-text);overflow-x:auto;white-space:pre-wrap;word-wrap:break-word" tabindex="0" data-language="python"><code><span class="line"><span style="color:var(--astro-code-color-text)">s </span><span style="color:var(--astro-code-token-keyword)">=</span><span style="color:var(--astro-code-token-string-expression)"> &quot;Python syntax highlighting&quot;</span></span>
+<span class="line"><span style="color:var(--astro-code-token-function)">print</span><span style="color:var(--astro-code-color-text)"> s</span></span>
+<span class="line"></span></code></pre>
+<hr/>
+<h3 id="blockquote">Blockquote</h3>
+<blockquote>
+<p>This is a blockquote example.</p>
+</blockquote>
+<hr/>
+<h3 id="tables">Tables</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Markdown</th><th>Less</th><th>Pretty</th></tr></thead><tbody><tr><td><em>Still</em></td><td><code>renders</code></td><td><strong>nicely</strong></td></tr><tr><td>1</td><td>2</td><td>3</td></tr></tbody></table>
+<p>There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don’t need to make the
+raw Markdown line up prettily. You can also use inline Markdown.</p> </div> </div> </div>  </main> </div> <div class="mt-20 border-t border-t-base-300 dark:border-t-base-600/60" data-astro-cid-ak3upacl> <footer class="site-container m-auto w-full pb-6" data-astro-cid-ak3upacl> <div class="flex w-full flex-col justify-between gap-4 sm:flex-row sm:gap-10" data-astro-cid-ak3upacl> <div class="mt-6 flex flex-col items-start gap-2" data-astro-cid-ak3upacl> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> <!-- <p>Sign up for our newsletter</p>
+        <form
+          id="newsletter-form"
+          name="newsletter-form"
+          class="mr-auto mt-1 flex max-w-lg gap-3"
+        >
+          <label
+            for="newsletter-email"
+            class="description mb-1 hidden text-base-100">*Email</label
+          >
+          <input
+            type="email"
+            class="form__input"
+            name="newsletter-email"
+            id="newsletter-email"
+            inputmode="email"
+            placeholder="Email"
+            required
+          />
+
+          <Button variant="primary" type="submit">Subscribe</Button>
+        </form> --> </div> <div class="grid grid-cols-2 gap-4 md:grid-cols-3" data-astro-cid-ak3upacl> <!-- Navigation --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Product</h3> <a href="/product/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Features </a> <a href="/product/#integrations" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Integrations </a> <a href="/product/#roadmap" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Roadmap </a> <!-- <FooterLink href={getRelativeLocaleUrl(currLocale, "/contact")}
+            >Contact</FooterLink
+          > --> </div> <!-- Legal --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Company</h3> <a href="/about/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+About
+ </a> <a href="https://intrepidai.substack.com/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" target="_blank" rel="noopener noreferrer" data-astro-cid-ak3upacl> 
+Blog
+ </a> <a href="/notes/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Intrepid Notes
+ </a> <!-- <FooterLink href="https://cosmicthemes.com/support/" newTab={true}>
+            Support
+          </FooterLink> --> </div> <!-- In the Know --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Contact</h3> <a href="/product/#pricing" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Pricing
+ </a> <a href="/about/#careers" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Careers
+ </a> <a href="/contact" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Get in touch
+ </a> <!-- <FooterLink href={getRelativeLocaleUrl(currLocale, "/privacy-policy").replace(/\/$/, "")} newTab={false}>
+            Privacy Policy
+          </FooterLink> --> <!-- <div class="text-sm">
+            Rue de l'Enseignement 25 <br />1000 Brussels <br />Belgium
+          </div>
+          <br /> --> <!-- <FooterLink href="https://x.com/intrepidai" newTab={true}>
+            @IntrepidAI
+          </FooterLink>
+
+          <FooterLink href="https://twitter.com/Cosmic_Themes" newTab={true}>
+            @LinkedIn
+          </FooterLink>
+
+          <FooterLink href="https://cosmicthemes.com/privacy/" newTab={true}>
+            Privacy policy
+          </FooterLink> -->  <footer data-astro-cid-ak3upacl> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.twitter.com/intrepidai" class="fa fa-twitter" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.github.com/intrepidai" class="fa fa-github" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.youtube.com/@intrepidai" class="fa fa-youtube" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.linkedin.com/company/98625275" class="fa fa-linkedin" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="mailto:hello@intrepid.ai" class="fa fa-envelope" data-astro-cid-yxtifmrq></a> </footer> <div class="text-sm text-base-100/60" data-astro-cid-ak3upacl>
+&copy; 2024  Intrepid AI. All rights reserved.
+<br data-astro-cid-ak3upacl> <a href="/privacy-policy" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Privacy Policy
+ </a> </div> </div> </div> </div> <hr class="my-6 border-base-300 dark:border-base-600/60" data-astro-cid-ak3upacl> </footer> </div> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YH213LV70"></script>  <!-- Scroll animations -->  </body> </html>

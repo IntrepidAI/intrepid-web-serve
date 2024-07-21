@@ -1,0 +1,268 @@
+<!DOCTYPE html><html lang="en" class="dark use-animations" data-astro-transition-scope="astro-tyfwoq7n-1"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width" , initial-scale="1.0"><!-- Inter Font: https://rsms.me/inter/ --><link rel="preconnect" href="https://rsms.me/"><link rel="stylesheet" href="https://rsms.me/inter/inter.css"><!-- Orbitron font (Intrepid AI) --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet"><!-- Fontawesome --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Favicons. Generated from https://realfavicongenerator.net/ --><link rel="icon" href="//favicons/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="//favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="//favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="//favicons/favicon-16x16.png"><link rel="manifest" href="//favicons/site.webmanifest"><link rel="mask-icon" href="//favicons/safari-pinned-tab.svg" color="#3e3e3e"><meta name="msapplication-TileColor" content="#3e3e3e"><meta name="theme-color" content="#3e3e3e"><!-- other --><meta name="generator" content="Astro v4.11.5"><link rel="sitemap" href="//sitemap-index.xml"><!-- Theme change setup. Run early to eliminate Flash of inAccurate coloR Theme (FART) --><script>
+  function initTheme() {
+    let colorTheme = localStorage.getItem("colorTheme");
+    if (!colorTheme) {
+      // if no color theme yet, start in dark mode because dark mode is best mode
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("colorTheme", "dark");
+
+      // if no color theme yet, use the users preferences (uncomment the below code, and comment out the above code to use this instead)
+      // if (
+      //   window.matchMedia &&
+      //   window.matchMedia("(prefers-color-scheme: dark)").matches
+      // ) {
+      //   document.documentElement.classList.add("dark");
+      //   localStorage.setItem("colorTheme", "dark");
+      // } else {
+      //   document.documentElement.classList.remove("dark");
+      //   localStorage.setItem("colorTheme", "light");
+      // }
+    } else {
+      // If there is, assign the theme based on the value in local storage
+      if (colorTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else if (colorTheme === "light") {
+        document.documentElement.classList.remove("dark");
+      }
+    }
+  }
+
+  // runs on initial page load
+  initTheme();
+
+  // runs on view transitions navigation
+  document.addEventListener("astro:after-swap", initTheme);
+</script><title>15 Best VSCode Extensions for Front-End Developers in 2023</title><link rel="canonical" href="https://intrepid.ai/blog/best-vscode-extensions-front-end-developers/"><meta name="description" content="The top VSCode extensions for frontend developers to improve productivity and code quality."><meta name="robots" content="index, follow"><meta property="og:title" content="15 Best VSCode Extensions for Front-End Developers in 2023"><meta property="og:type" content="website"><meta property="og:image" content="https://intrepid.ai/_astro/heroImage.BwQoyeFB_ZKOOvf.webp"><meta property="og:url" content="https://intrepid.ai/blog/best-vscode-extensions-front-end-developers/"><meta property="og:description" content="The top VSCode extensions for frontend developers to improve productivity and code quality."><meta property="og:site_name" content="Intrepid AI - All-in-one platform for autonomous robots"><meta property="og:image:url" content="https://intrepid.ai/_astro/heroImage.BwQoyeFB_ZKOOvf.webp"><meta property="og:image:type" content="image/webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="673"><meta property="og:image:alt" content="15 Best VSCode Extensions for Front-End Developers in 2023"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@IntrepidAI"><meta name="twitter:title" content="15 Best VSCode Extensions for Front-End Developers in 2023"><meta name="twitter:image" content="https://intrepid.ai/_astro/heroImage.BwQoyeFB_ZKOOvf.webp"><meta name="twitter:description" content="The top VSCode extensions for frontend developers to improve productivity and code quality."><meta name="twitter:creator" content="@IntrepidAI"> <!-- JSON LD --> <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Blogposting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://intrepid.ai/blog/best-vscode-extensions-front-end-developers/"
+        },
+        "headline": "15 Best VSCode Extensions for Front-End Developers in 2023",
+        "description": "The top VSCode extensions for frontend developers to improve productivity and code quality.",
+        "image": "/_astro/heroImage.BwQoyeFB_ZKOOvf.webp",
+        "author": [{"@type":"Person","name":"Web Reaper","url":"https://webreaper.dev"},{"@type":"Person","name":"Second Author","url":"https://docs.webreaper.dev"}],
+        "datePublished": "Sat Aug 05 2023 02:00:00 GMT+0200 (Central European Summer Time)",
+        "dateModified": "undefined"
+      }
+    </script><!-- no fallback as I saw issues with firefox fallback --><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="none"><link rel="stylesheet" href="/_astro/_page_.BzwSRsCg.css">
+<link rel="stylesheet" href="/_astro/_slug_.CMCIyAKv.css"><script type="module" src="/_astro/hoisted.ysCn3VhS.js"></script><style>[data-astro-transition-scope="astro-tyfwoq7n-1"] { view-transition-name: astro-tyfwoq7n-1; }@layer astro { ::view-transition-old(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(astro-tyfwoq7n-1) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-tyfwoq7n-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-tyfwoq7n-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head> <body id="body" class="bg-base-100 text-base-900 dark:bg-base-900 dark:text-base-100"> <!-- put cookie consent first so it is seen first by screen readers --> <!-- <CookieConsent /> --> <div class="min-h-[100lvh]"> <section id="nav" class="navbar--initial fixed left-0 top-0 z-30 flex w-full flex-col border-b border-b-transparent bg-transparent transition-all duration-300" data-astro-cid-ju4v47fh> <div class="mx-auto flex w-full" data-astro-cid-ju4v47fh> <div class="site-container flex w-full items-center" data-astro-cid-ju4v47fh> <header class="relative flex w-full items-center gap-2" data-astro-cid-ju4v47fh> <!-- home button / image --> <div class="flex h-full flex-auto justify-start" data-astro-cid-ju4v47fh> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> </div> <!-- <div class="flex flex-auto justify-center">
+
+        </div> --> <!-- desktop nav menu --> <div data-astro-cid-ju4v47fh> <div class="flex h-full flex-auto justify-end" data-astro-cid-ju4v47fh> <nav class="hidden md:block" data-astro-cid-ju4v47fh> <ul class="flex h-full items-center" data-astro-cid-ju4v47fh> <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product" target="" rel="" aria-label="Product">  Product </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/about" target="" rel="" aria-label="About">  About </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://intrepidai.substack.com" target="" rel="" aria-label="Blog">  Blog </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product/#pricing" target="" rel="" aria-label="Pricing">  Pricing </a> </li><li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://docs.intrepid.ai" target="" rel="" aria-label="Docs">  Docs </a> </li> </ul> </nav> <div class="hidden items-center gap-1 md:flex" data-astro-cid-ju4v47fh> <!-- <Button
+              variant="ghost"
+              href={getRelativeLocaleUrl(currLocale, "/login")}
+              class="whitespace-nowrap"
+            >
+              Sign In
+            </Button> --> <!-- normal link --><a class="whitespace-nowrap button group button--ghost" href="https://labs.intrepid.ai" data-astro-cid-ju4v47fh>
+Sign In
+</a><!-- button for "submit" or other --> <!-- normal link --><a class="whitespace-nowrap button group button--primary" href="https://labs.intrepid.ai" data-astro-cid-ju4v47fh>Register</a><!-- button for "submit" or other --> <!-- <ThemeToggle /> --> <!-- {locales.length > 1 && <LanguageSelect class="ml-2" />} --> </div> <!-- mobile nav menu, only load on small screens where it is visible --> <div class="flex items-center md:hidden" data-astro-cid-ju4v47fh> <!-- mobile nav open --><mobile-nav-menu> <button data-open-modal id="mobile-nav__open-btn" disabled class="primary-focus relative my-auto flex h-10 w-10 items-center justify-center rounded-md"> <!-- hamburger icon to open menu --> <svg viewBox="0 0 24 24" aria-label="open navigation menu" class="absolute inline-block h-8 w-8 transition-all" astro-icon="tabler/menu-2"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg> </button> <dialog aria-label="mobile navigation menu" id="mobile-nav__content" class="whitepace-nowrap fixed inset-x-0 top-0 z-20 m-0 h-[100dvh] max-h-screen w-screen max-w-[100vw] items-center overflow-auto overflow-y-auto overflow-x-hidden bg-base-100 px-4 pb-4 text-lg font-normal text-base-900 transition-opacity duration-300 dark:bg-base-900 dark:text-base-100"> <div class="dialog-frame -mr-1"> <div class="flex items-center justify-between"> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> <!-- mobile nav close --> <button data-close-modal id="mobile-nav__close-btn" class="primary-focus relative my-auto inline-flex h-10 w-10 items-center justify-center rounded-md"> <!-- "X" icon to close menu --> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="absolute inline-block h-8 w-8 transition-all" viewBox="0 0 24 24" aria-label="close navigation menu" astro-icon="tabler/x"><path stroke="none" d="M0 0h24v24H0z"/><path d="M18 6 6 18M6 6l12 12"/></svg> </button> </div> <!-- nav items --> <nav> <ul class="mt-4 flex flex-col gap-2 text-xl">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product" target="" rel="" aria-label="Product">  Product </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/about" target="" rel="" aria-label="About">  About </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://intrepidai.substack.com" target="" rel="" aria-label="Blog">  Blog </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="/product/#pricing" target="" rel="" aria-label="Pricing">  Pricing </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  <li class="w-full"> <a class="primary-focus relative block flex items-center gap-1.5 px-4 py-1.5 leading-tight text-base-900 transition hover:text-base-600 dark:text-base-200/90 dark:hover:text-base-50 undefined" href="https://docs.intrepid.ai" target="" rel="" aria-label="Docs">  Docs </a> </li> <hr class="mx-4 my-1 border-base-300 dark:border-base-600/60">  </ul> </nav> <div class="mt-2 flex w-full flex-col gap-3 px-2"> <!-- <hr class="mx-2 mb-2 border-base-300 dark:border-base-600/60" /> --> <div class="-mr-1 flex items-start justify-between"> <!-- <ThemeToggle /> --> <!-- <LanguageSelect /> --> </div> <!-- normal link --><a class="mx-2 whitespace-nowrap button group button--outline" href="https://labs.intrepid.ai">
+Sign in
+</a><!-- button for "submit" or other --> <!-- normal link --><a class="mx-2 button group button--primary" href="https://labs.intrepid.ai">
+Register</a><!-- button for "submit" or other --> </div> </div> </dialog> </mobile-nav-menu>  </div> </div> </div> </header> </div> </div> </section>    <main class="">  <article class="site-container mt-24"> <!-- Blog post info --> <div class="flex w-full flex-col items-center"> <div class="mx-auto flex w-full max-w-[800px]"> <div class="mx-auto text-center"> <!-- Date --> <time class="mx-auto text-sm opacity-90 dark:opacity-80" datetime="2023-08-05T00:00:00.000Z">Aug 5, 2023</time> <!-- title --> <h1 class="h1 mt-10">15 Best VSCode Extensions for Front-End Developers in 2023</h1> <div class="mt-8 flex w-full justify-center gap-4 text-sm md:text-base"> <!-- author info --> <div class="mb-auto flex"> <figure> <img src="/_astro/avatar.DqsinzrH_Z1BhWfT.webp" alt="Web Reaper avatar" class="h-7 w-7 rounded-full object-cover" width="100" height="105" loading="lazy" decoding="async"> </figure> <div class="my-auto ml-2"> <a class="opacity-80 transition hover:opacity-100" href="https://webreaper.dev" target="_blank" rel="noopener noreferrer"> Web Reaper </a> </div> </div><div class="mb-auto flex"> <figure> <img src="/_astro/avatar.DqsinzrH_2rBSBW.webp" alt="Second Author avatar" class="h-7 w-7 rounded-full object-cover" width="100" height="105" loading="lazy" decoding="async"> </figure> <div class="my-auto ml-2"> <a class="opacity-80 transition hover:opacity-100" href="https://docs.webreaper.dev" target="_blank" rel="noopener noreferrer"> Second Author </a> </div> </div> </div> </div> </div> <!-- blog post main image --> <div class="mt-6 max-w-[1000px] overflow-hidden"> <img src="/_astro/heroImage.BwQoyeFB_ZN9Fim.webp" alt="Cover for 15 Best VSCode Extensions for Front-End Developers in 2023" class="max-h-[70vh] rounded-lg border border-base-300 object-cover dark:border-base-600/60" loading="eager" width="2000" height="1121" decoding="async"> </div> </div> <!-- article content --> <div class="mt-10 w-full"> <div class="mx-auto max-w-2xl"> <div class="text-base-content text-base">  <section id="blog-post-content" class="prose mx-auto md:text-lg">  <p>Don’t be a code monkey. Use these VSCode extensions to become a code <em>ninja</em>.</p>
+<p>I know what you’re thinking: “I’m a real front-end developer, I don’t need any extensions. I’ll just bit-bang everything like a real man.” I aplaud you, but VSCode extensions can make your life so much easier. They’ll help you write better code, find bugs faster, and save time on repetitive tasks.</p>
+<h2 id="the-best-vscode-extensions">The Best VSCode Extensions</h2>
+<ol>
+<li>
+<p><a href="#prettier---code-formatter">Prettier - Code Formatter</a></p>
+</li>
+<li>
+<p><a href="#eslint">ESLint</a></p>
+</li>
+<li>
+<p><a href="#github-copilot">GitHub Copilot</a></p>
+</li>
+<li>
+<p><a href="#gitlens--git-supercharged">GitLens — Git supercharged</a></p>
+</li>
+<li>
+<p><a href="#tailwind-css-intellisense">Tailwind CSS IntelliSense</a></p>
+</li>
+<li>
+<p><a href="#auto-rename-tag">Auto Rename Tag</a></p>
+</li>
+<li>
+<p><a href="#color-highlight">Color Highlight</a></p>
+</li>
+<li>
+<p><a href="#auto-close-tag">Auto Close Tag</a></p>
+</li>
+<li>
+<p><a href="#css-peek">CSS Peek</a></p>
+</li>
+<li>
+<p><a href="#live-server">Live Server</a></p>
+</li>
+<li>
+<p><a href="#es7-reactreduxreact-native-snippets">ES7+ React/Redux/React-Native snippets</a></p>
+</li>
+<li>
+<p><a href="#better-comments">Better Comments</a></p>
+</li>
+<li>
+<p><a href="#material-icon-theme">Material Icon Theme</a></p>
+</li>
+<li>
+<p><a href="#dracula-official">Dracula Official</a></p>
+</li>
+<li>
+<p><a href="#pretty-typescript-errors">Pretty TypeScript Errors</a></p>
+</li>
+</ol>
+<h3 id="prettier---code-formatter">Prettier - Code Formatter</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" target="_blank" rel="noopener noreferrer">Prettier</a> is an opinionated code formatter that will automatically format your code to a consistent style. This extension is great for teams that want to enforce consistency, or just to keep you from having to worry about formatting your code.</p>
+<p>With over <strong>34 million</strong> installations, you could say it is popular.</p>
+<p>![prettier gif](./prettier.gif)</p>
+<h3 id="eslint">ESLint</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="_blank" rel="noopener noreferrer">ESLint</a> is a configurable linter to help you find and fix problems in your JavaScript code. It can be used for both frontend and backend development, and is a great way to catch bugs before they happen. It can check for mistakes like unused variables, missing semicolons, and more.</p>
+<p>![ESLint VSCode Extension](./eslint.jpg)</p>
+<h3 id="github-copilot">GitHub Copilot</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank" rel="noopener noreferrer">GitHub Copilot</a> is an AI-powered pair programmer that helps you write better code, faster. While this is a paid tool (currently $10/month), it can be a huge time saver for developers.</p>
+<p>![github copilot gif](./github-copilot.gif)</p>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-info bg-info/10 text-info-content prose-code:bg-info/20 dark:prose-code:bg-info/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/info-circle"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0M12 9h.01"/><path d="M11 12h1v4h1"/></svg> <p class="text-sm font-bold">INFO</p> </div> <p>If you are a verified student, teacher, or maintainer of popular open-source
+repo on GitHub, you can get Copilot for free.</p> </div>
+<h3 id="gitlens--git-supercharged">GitLens — Git supercharged</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank" rel="noopener noreferrer">GitLens</a> is a VSCode extension that, well, supercharges your git features. It allows you to see who last edited a line of code, when it was last edited, and more.</p>
+<p>![GitLens VSCode Extension](./gitlens.jpg)</p>
+<h3 id="tailwind-css-intellisense">Tailwind CSS IntelliSense</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" target="_blank" rel="noopener noreferrer">Tailwind CSS IntelliSense</a> is an extension that provides intelligent autocomplete, syntax highlighting, and linting for Tailwind CSS.</p>
+<p>If you are using Tailwind CSS, you will 100% want this extension.</p>
+<p>![Tailwind CSS IntelliSense VSCode Extension](./tailwindcss.jpg)</p>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-success bg-success/10 text-success-content prose-code:bg-success/20 dark:prose-code:bg-success/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/bulb"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7-.7.7M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3M9.7 17h4.6"/></svg> <p class="text-sm font-bold">TIP</p> </div> <p>If you are not using Tailwind CSS, you should 😊</p> </div>
+<h3 id="auto-rename-tag">Auto Rename Tag</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag" target="_blank" rel="noopener noreferrer">Auto Rename Tag</a> is a fairly simple extension, but a big time saver. If you change the opening of an HTML tag, it will automatically update the closing tag. This ensures your tags always match.</p>
+<p>![Auto Rename Tag VSCode Extension](./auto-rename-tag.gif)</p>
+<h3 id="color-highlight">Color Highlight</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight" target="_blank" rel="noopener noreferrer">Color Highlight</a> is a simple extension that will highlight colors in your code. This is great for quickly seeing what color a variable is set to, or if you are using the correct color in your CSS.</p>
+<p>![Color Highlight VSCode Extension](./color-highlight.jpg)</p>
+<h3 id="auto-close-tag">Auto Close Tag</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag" target="_blank" rel="noopener noreferrer">Auto Close Tag</a> is another simple extension that can save you time. It will automatically close HTML tags for you. So when you type <code>&lt;div&gt;</code>, it will automatically add the <code>&lt;/div&gt;</code> to match.</p>
+<p>![Auto Close Tag VSCode Extension](./auto-close-tag.gif)</p>
+<h3 id="css-peek">CSS Peek</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek" target="_blank" rel="noopener noreferrer">CSS Peek</a> is a great extension for frontend developers. It allows you to quickly see the CSS for a given HTML element. This is great for when you are trying to figure out why a certain element is styled a certain way.</p>
+<p>![CSS Peek VSCode Extension](./css-peek.jpg)</p>
+<h3 id="live-server">Live Server</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" rel="noopener noreferrer">Live Server</a> is a VSCode extension that allows you to run a local server with live reload. This is great when initially learning web development with basic HTML, CSS, and JS files, as it will update your preview in real time!</p>
+<p>![Live Server VSCode Extension](./liveserver.jpg)</p>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-success bg-success/10 text-success-content prose-code:bg-success/20 dark:prose-code:bg-success/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/bulb"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7-.7.7M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3M9.7 17h4.6"/></svg> <p class="text-sm font-bold">TIP</p> </div> <p>If you are using a framework, odds are this extension is unecessary. Your
+framework will have a similar feature built in for live reloading.</p> </div>
+<h3 id="es7-reactreduxreact-native-snippets">ES7+ React/Redux/React-Native snippets</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" target="_blank" rel="noopener noreferrer">ES7+ React/Redux/React-Native snippets</a> is a collection of snippets for React, Redux, and React Native. If you write React code, you will want this extension.</p>
+<p>![ES7+ Snippets VSCode Extension](./es7.jpg)</p>
+<h3 id="better-comments">Better Comments</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments" target="_blank" rel="noopener noreferrer">Better Comments</a> improves the comments for your code. It provides syntax highlighting for different types of comments, like the below picture shows.</p>
+<p>![Better Comments VSCode Extension](./better-comments.jpg)</p>
+<h3 id="material-icon-theme">Material Icon Theme</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" target="_blank" rel="noopener noreferrer">Material Icon Theme</a> provides icons for files and folders in VSCode. This makes it easier to find what you are looking for, and makes your code window look nicer.</p>
+<p>![Material Icon Theme VSCode Extension](./material-icon.jpg)</p>
+<h3 id="dracula-official">Dracula Official</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula" target="_blank" rel="noopener noreferrer">Dracula Official</a> is a dark theme for VSCode. It is one of the most popular themes on the marketplace, and my personal favorite theme.</p>
+<p>If you don’t like this particular theme, you should pick a different theme to install in VSCode, as they can provide additional syntax highlighting support.</p>
+<p>![Dracula VSCode Extension](./dracula.jpg)</p>
+<h3 id="pretty-typescript-errors">Pretty TypeScript Errors</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors" target="_blank" rel="noopener noreferrer">Pretty TypeScript Errors</a> provides a more readable error message, and provides a link to the documentation for the error. I have fallen in love with this extension for TypeScript development.</p>
+<p>![Pretty TypeScript Errors VSCode Extension](./pretty-typescript-errors.jpg)</p>
+<h2 id="bonus-extensions">Bonus Extensions</h2>
+<p>These are a few other extensions I find useful, but didn’t quite make the top tier list.</p>
+<h3 id="astro">Astro</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode" target="_blank" rel="noopener noreferrer">Astro</a> is an obvious extension if you are developing using Astro. It provides syntax highlighting, code snippets, and more.</p>
+<p>![Astro VSCode Extension](./astro.jpg)</p>
+<div class="admonition dark my-3 rounded-md border-l-4 px-4 py-3 dark:text-base-200 border-success bg-success/10 text-success-content prose-code:bg-success/20 dark:prose-code:bg-success/20"> <div class="flex items-center gap-2 pb-2"> <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-7 w-7" viewBox="0 0 24 24" astro-icon="tabler/bulb"><path stroke="none" d="M0 0h24v24H0z"/><path d="M3 12h1m8-9v1m8 8h1M5.6 5.6l.7.7m12.1-.7-.7.7M9 16a5 5 0 1 1 6 0 3.5 3.5 0 0 0-1 3 2 2 0 0 1-4 0 3.5 3.5 0 0 0-1-3M9.7 17h4.6"/></svg> <p class="text-sm font-bold">TIP</p> </div> <p>Astro is my meta framework of choice for SSG and SSR, which allows you to use
+whatever UI framework you want within it (React, Vue, Solid, etc). I highly
+recommend it.</p> </div>
+<h3 id="codetour">CodeTour</h3>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour" target="_blank" rel="noopener noreferrer">CodeTour</a> allows you to record and playback guided tours of codebases, directly within the editor. This is great for onboarding new developers, or just for documenting your codebase.</p>  </section> <!-- button to go back to all posts --> <div class="mt-16 flex justify-center"> <!-- normal link --><a class="py-2 button group button--outline" href="/blog/"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mr-1 h-[1.4em] w-[1.4em] text-primary-600 transition-[transform] group-hover:-translate-x-1 dark:text-primary-300" viewBox="0 0 24 24" astro-icon="tabler/arrow-narrow-left"><path stroke="none" d="M0 0h24v24H0z"/><path d="M5 12h14M5 12l4 4M5 12l4-4"/></svg>Back to all posts</a><!-- button for "submit" or other --> </div> </div> </div> </div> </article>  </main> </div> <div class="mt-20 border-t border-t-base-300 dark:border-t-base-600/60" data-astro-cid-ak3upacl> <footer class="site-container m-auto w-full pb-6" data-astro-cid-ak3upacl> <div class="flex w-full flex-col justify-between gap-4 sm:flex-row sm:gap-10" data-astro-cid-ak3upacl> <div class="mt-6 flex flex-col items-start gap-2" data-astro-cid-ak3upacl> <a class="primary-focus flex items-center align-middle" href="/" class=""> <img src="/_astro/intrepid-logo.CxCBMl6-_1cNm7z.webp" alt="Intrepid logo" loading="eager" <!--="true" --="true" width="130" height="50" decoding="async"></a> <!-- <p>Sign up for our newsletter</p>
+        <form
+          id="newsletter-form"
+          name="newsletter-form"
+          class="mr-auto mt-1 flex max-w-lg gap-3"
+        >
+          <label
+            for="newsletter-email"
+            class="description mb-1 hidden text-base-100">*Email</label
+          >
+          <input
+            type="email"
+            class="form__input"
+            name="newsletter-email"
+            id="newsletter-email"
+            inputmode="email"
+            placeholder="Email"
+            required
+          />
+
+          <Button variant="primary" type="submit">Subscribe</Button>
+        </form> --> </div> <div class="grid grid-cols-2 gap-4 md:grid-cols-3" data-astro-cid-ak3upacl> <!-- Navigation --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Product</h3> <a href="/product/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Features </a> <a href="/product/#integrations" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Integrations </a> <a href="/product/#roadmap" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> Roadmap </a> <!-- <FooterLink href={getRelativeLocaleUrl(currLocale, "/contact")}
+            >Contact</FooterLink
+          > --> </div> <!-- Legal --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Company</h3> <a href="/about/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+About
+ </a> <a href="https://intrepidai.substack.com/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" target="_blank" rel="noopener noreferrer" data-astro-cid-ak3upacl> 
+Blog
+ </a> <a href="/notes/" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Intrepid Notes
+ </a> <!-- <FooterLink href="https://cosmicthemes.com/support/" newTab={true}>
+            Support
+          </FooterLink> --> </div> <!-- In the Know --> <div class="flex flex-col" data-astro-cid-ak3upacl> <h3 class="mb-2 mt-6 text-lg font-semibold" data-astro-cid-ak3upacl>Contact</h3> <a href="/product/#pricing" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Pricing
+ </a> <a href="/about/#careers" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Careers
+ </a> <a href="/contact" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Get in touch
+ </a> <!-- <FooterLink href={getRelativeLocaleUrl(currLocale, "/privacy-policy").replace(/\/$/, "")} newTab={false}>
+            Privacy Policy
+          </FooterLink> --> <!-- <div class="text-sm">
+            Rue de l'Enseignement 25 <br />1000 Brussels <br />Belgium
+          </div>
+          <br /> --> <!-- <FooterLink href="https://x.com/intrepidai" newTab={true}>
+            @IntrepidAI
+          </FooterLink>
+
+          <FooterLink href="https://twitter.com/Cosmic_Themes" newTab={true}>
+            @LinkedIn
+          </FooterLink>
+
+          <FooterLink href="https://cosmicthemes.com/privacy/" newTab={true}>
+            Privacy policy
+          </FooterLink> -->  <footer data-astro-cid-ak3upacl> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.twitter.com/intrepidai" class="fa fa-twitter" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.github.com/intrepidai" class="fa fa-github" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.youtube.com/@intrepidai" class="fa fa-youtube" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="https://www.linkedin.com/company/98625275" class="fa fa-linkedin" data-astro-cid-yxtifmrq></a> <!-- <a href={`https://www.${platform}.com/${username}`} class={`fa fa-${platform}`} ></a> --><a href="mailto:hello@intrepid.ai" class="fa fa-envelope" data-astro-cid-yxtifmrq></a> </footer> <div class="text-sm text-base-100/60" data-astro-cid-ak3upacl>
+&copy; 2024  Intrepid AI. All rights reserved.
+<br data-astro-cid-ak3upacl> <a href="/privacy-policy" class="mr-auto text-base-900 transition hover:text-base-600 dark:text-base-400 dark:hover:text-base-100" data-astro-cid-ak3upacl> 
+Privacy Policy
+ </a> </div> </div> </div> </div> <hr class="my-6 border-base-300 dark:border-base-600/60" data-astro-cid-ak3upacl> </footer> </div> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YH213LV70"></script>  <!-- Scroll animations -->  </body> </html>
